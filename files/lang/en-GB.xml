@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<language alias="en" intName="English (UK)" localName="English (UK)" lcid="" culture="en-GB">
+  <creator>
+    <name>ThreewoodBatch</name>
+    <link>https://github.com/samsam321/umbraco-ThreewoodBatch</link>
+  </creator>
+  <area alias="sections">
+    <key alias="ThreewoodBatch"><![CDATA[T.W.B]]></key>
+  </area>
+  <area alias="ThreewoodBatch">
+    <!-- DASHBOARD -->
+    <!--<key alias="Dashboard.Title"><![CDATA[Welcome {{vm.UserName}} to Threewood Batch Dashboard]]></key>-->
+    <!--<key alias="Dashboard.Title">Threewood Batch Dashboard</key>
+    <key alias="Dashboard.SubTitle"><![CDATA[Welcome to use Threewood Batch Dashboard.]]></key>
+    <key alias="Dashboard.Description">
+      <![CDATA[
+      ]]>
+    </key>
+    <key alias="Dashboard.LatestChanges"><![CDATA[]]></key>
+    <key alias="Dashboard.VersionHistory"><![CDATA[]]></key>
+    <key alias="Dashboard.LoadButton">Load</key>
+    <key alias="Dashboard.ImportButton">Import</key>
+    <key alias="Dashboard.UpdateButton">Update</key>
+    <key alias="Dashboard.DeleteButton">Delete</key>
+    <key alias="Dashboard.LoadInProgress">Loading in progress. Please wait until you see results</key>
+    <key alias="Dashboard.MemberRole.Dialog.Header">Assign Target Roles</key>
+    <key alias="Dashboard.MemberRole.Dialog.Check">Check/Uncheck all</key>-->
+
+    <key alias="PhonebookManager.TreeSection"><![CDATA[Phonebook]]></key>
+  </area>
+</language>

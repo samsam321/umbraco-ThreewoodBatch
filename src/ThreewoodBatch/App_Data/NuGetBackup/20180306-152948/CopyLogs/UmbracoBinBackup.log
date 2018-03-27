@@ -1,0 +1,65 @@
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : Tue Mar 06 15:29:49 2018
+
+   Source : C:\gitRepos\umbraco-ThreewoodBatch\src\ThreewoodBatch\bin\
+     Dest : C:\gitRepos\umbraco-ThreewoodBatch\src\ThreewoodBatch\App_Data\NuGetBackup\20180306-152948\bin\
+
+    Files : *.*
+	    
+  Options : *.* /S /E /COPY:DAT /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	                   0	C:\gitRepos\umbraco-ThreewoodBatch\src\ThreewoodBatch\bin\
+	  New Dir         16	C:\gitRepos\umbraco-ThreewoodBatch\src\ThreewoodBatch\bin\Debug\
+	    New File  		   45416	Microsoft.Web.Infrastructure.dll  0%  100%  
+	    New File  		    1469	Microsoft.Web.Infrastructure.xml  0%  100%  
+	    New File  		  168520	System.Net.Http.Formatting.dll  0%   77%  100%  
+	    New File  		  137872	System.Net.Http.Formatting.xml  0%   95%  100%  
+	    New File  		  471240	System.Web.Http.dll  0%   27%   55%   83%  100%  
+	    New File  		  539657	System.Web.Http.xml  0%   48%   97%  100%  
+	    New File  		  505504	System.Web.Mvc.dll  0%   25%   51%   77%  100%  
+	    New File  		  847872	System.Web.Mvc.xml  0%   30%   61%   92%  100%  
+	    New File  		  266888	System.Web.Razor.dll  0%   49%   98%  100%  
+	    New File  		  365160	System.Web.Razor.xml  0%   35%   71%  100%  
+	    New File  		   39536	System.Web.WebPages.Razor.dll  0%  100%  
+	    New File  		   17776	System.Web.WebPages.Razor.xml  0%  100%  
+	    New File  		   27136	ThreewoodBatch.dll  0%  100%  
+	    New File  		   60928	ThreewoodBatch.pdb  0%  100%  
+	    New File  		   2.7 m	Umbraco.Core.dll  0%   18%   36%   55%   73%   92%  100%  
+	    New File  		   2.2 m	umbraco.dll  0%   22%   45%   67%   90%  100%  
+	  New Dir         16	C:\gitRepos\umbraco-ThreewoodBatch\src\ThreewoodBatch\bin\Release\
+	    New File  		   45416	Microsoft.Web.Infrastructure.dll  0%  100%  
+	    New File  		    1469	Microsoft.Web.Infrastructure.xml  0%  100%  
+	    New File  		  168520	System.Net.Http.Formatting.dll  0%   77%  100%  
+	    New File  		  137872	System.Net.Http.Formatting.xml  0%   95%  100%  
+	    New File  		  471240	System.Web.Http.dll  0%   27%   55%   83%  100%  
+	    New File  		  539657	System.Web.Http.xml  0%   48%   97%  100%  
+	    New File  		  505504	System.Web.Mvc.dll  0%   25%   51%   77%  100%  
+	    New File  		  847872	System.Web.Mvc.xml  0%   30%   61%   92%  100%  
+	    New File  		  266888	System.Web.Razor.dll  0%   49%   98%  100%  
+	    New File  		  365160	System.Web.Razor.xml  0%   35%   71%  100%  
+	    New File  		   39536	System.Web.WebPages.Razor.dll  0%  100%  
+	    New File  		   17776	System.Web.WebPages.Razor.xml  0%  100%  
+	    New File  		    4608	ThreewoodBatch.dll  0%  100%  
+	    New File  		    7680	ThreewoodBatch.pdb  0%  100%  
+	    New File  		   2.7 m	Umbraco.Core.dll  0%   18%   36%   55%   73%   92%  100%  
+	    New File  		   2.2 m	umbraco.dll  0%   22%   45%   67%   90%  100%  
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :         3         2         1         0         0         0
+   Files :        32        32         0         0         0         0
+   Bytes :   16.44 m   16.44 m         0         0         0         0
+   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+   Speed :            36685608 Bytes/sec.
+   Speed :            2099.167 MegaBytes/min.
+
+   Ended : Tue Mar 06 15:29:49 2018

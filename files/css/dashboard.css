@@ -1,0 +1,57 @@
+﻿.welcome-dashboard h3 {
+    font-size:2em;
+    color:purple;
+}
+
+.welcome-dashboard .subtitle {
+    padding-bottom: 10px;
+    font-style: italic;
+}
+
+.welcome-dashboard .description {
+    font-size: smaller;
+}
+
+/*Confirmation Notification Dialog*/
+.alert-custom{
+	background-color: purple;
+	color: pink;
+	border: 2px dotted green !important;
+}
+
+.alert-custom a{
+	color: pink;
+}
+
+/*End of Confirmation Notification Dialog*/
+
+/*Smart table Style*/
+.st-table {
+    margin-top: 10px;
+}
+
+.st-sort-ascent:before{
+    content: '\25B2';
+}
+
+.st-sort-descent:before{
+    content: '\25BC';
+}
+
+.st-selected{
+    background: #216eff !important;
+    color: white !important;
+}
+
+.select-page {
+  width: 50px;
+  text-align: center;
+}
+
+.pagination li a input{
+  padding: 0;
+  margin: -5px 0;
+  height: 30px;
+}
+
+/*End of Smart table Style*/

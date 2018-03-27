@@ -1,0 +1,10 @@
+﻿<div class='ng-modal' ng-show='show'>
+    <div class='ng-modal-overlay' ng-click='hideModal()'></div>
+    <div class='ng-modal-dialog' ng-style='dialogStyle'>                
+        <div class='ng-modal-dialog-content' ng-transclude></div>                
+        <div class="ng-modal-dialog-button">
+            <button id="no" class="btn btn-warning" ng-click='hideModal()'>No</button>
+            <button id="yes" class="btn" confirmed-action="actionName()" ng-click="confirmedClick()">Yes</button>
+        </div>        
+    </div>
+</div>

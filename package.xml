@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<umbPackage>
+  <files>
+	<!-- Asset -->
+    <file>
+      <guid>logo.png</guid>
+      <orgPath>/App_Plugins/ThreewoodBatch/assets</orgPath>
+      <orgName>logo.png</orgName>
+    </file>     
+	<file>
+      <guid>ThreewoodBatch.dll</guid>
+      <orgPath>/bin</orgPath>
+      <orgName>ThreewoodBatch.dll</orgName>
+    </file>
+	<file>
+      <guid>EPPlus.dll</guid>
+      <orgPath>/bin</orgPath>
+      <orgName>EPPlus.dll</orgName>
+    </file>
+
+	
+	<!-- Css -->
+    <file>
+      <guid>dashboard.css</guid>
+      <orgPath>/App_Plugins/ThreewoodBatch/css</orgPath>
+      <orgName>dashboard.css</orgName>
+    </file>		
+	<file>
+      <guid>style.css</guid>
+      <orgPath>/App_Plugins/ThreewoodBatch/css</orgPath>
+      <orgName>style.css</orgName>
+    </file>		
+	
+	<!-- Directives -->
+    		
+	<!-- Controller -->
+	<file>
+      <guid>edit.controller.js</guid>
+      <orgPath>/App_Plugins/ThreewoodBatch/backoffice/batchhelper/controllers</orgPath>
+      <orgName>edit.controller.js</orgName>
+    </file>	
+	<file>
+      <guid>phonebook-manager-controller.js</guid>
+      <orgPath>/App_Plugins/ThreewoodBatch/backoffice/batchhelper/controllers</orgPath>
+      <orgName>phonebook-manager-controller.js</orgName>
+    </file>	
+	
+	<!-- Services -->
+	<file>
+      <guid>file.upload.api.service.js</guid>
+      <orgPath>/App_Plugins/ThreewoodBatch/backoffice/batchhelper/services</orgPath>
+      <orgName>file.upload.api.service.js</orgName>
+    </file>	
+	
+	<!-- Language -->
+	<file>
+      <guid>en-GB.xml</guid>
+      <orgPath>/App_Plugins/ThreewoodBatch/lang</orgPath>
+      <orgName>en-GB.xml</orgName>
+    </file>
+    <file>
+      <guid>en-US.xml</guid>
+      <orgPath>/App_Plugins/ThreewoodBatch/lang</orgPath>
+      <orgName>en-US.xml</orgName>
+    </file>
+	
+	<!-- scripts -->
+    <file>
+      <guid>ng-file-upload.min.js</guid>
+      <orgPath>/App_Plugins/ThreewoodBatch/backoffice/batchhelper/scripts</orgPath>
+      <orgName>ng-file-upload.min.js</orgName>
+    </file>
+	<file>
+      <guid>ng-file-upload-shim.min.js</guid>
+      <orgPath>/App_Plugins/ThreewoodBatch/backoffice/batchhelper/scripts</orgPath>
+      <orgName>ng-file-upload-shim.min.js</orgName>
+    </file>
+	<file>
+      <guid>ng-file-upload-all.js</guid>
+      <orgPath>/App_Plugins/ThreewoodBatch/backoffice/batchhelper/scripts</orgPath>
+      <orgName>ng-file-upload-all.js</orgName>
+    </file>
+	
+	
+	<!-- Templates -->
+	<!-- <file> -->
+      <!-- <guid>member.role.html</guid> -->
+      <!-- <orgPath>/App_Plugins/ThreewoodBatch/template</orgPath> -->
+      <!-- <orgName>member.role.html</orgName> -->
+    <!-- </file> -->
+	<!-- <file> -->
+      <!-- <guid>modal.dialog.html</guid> -->
+      <!-- <orgPath>/App_Plugins/ThreewoodBatch/template</orgPath> -->
+      <!-- <orgName>modal.dialog.html</orgName> -->
+    <!-- </file> -->
+	<!-- <file> -->
+      <!-- <guid>pagination.custom.html</guid> -->
+      <!-- <orgPath>/App_Plugins/ThreewoodBatch/template</orgPath> -->
+      <!-- <orgName>pagination.custom.html</orgName> -->
+    <!-- </file> -->
+	
+	<!-- Views -->
+    <file>
+      <guid>dashboard.html</guid>
+      <orgPath>/App_Plugins/ThreewoodBatch/views</orgPath>
+      <orgName>dashboard.html</orgName>
+    </file>
+    <file>
+      <guid>edit.html</guid>
+      <orgPath>/App_Plugins/ThreewoodBatch/backoffice/batchhelper</orgPath>
+      <orgName>edit.html</orgName>
+    </file>	
+	<file>
+      <guid>phonebook-manager.html</guid>
+      <orgPath>/App_Plugins/ThreewoodBatch/backoffice/batchhelper/views</orgPath>
+      <orgName>phonebook-manager.html</orgName>
+    </file>	
+	
+	<!-- Manifest -->
+    <file>
+      <guid>package.manifest</guid>
+      <orgPath>/App_Plugins/ThreewoodBatch</orgPath>
+      <orgName>package.manifest</orgName>
+    </file>    
+	
+  </files>  
+  <info>
+    <package>
+      <name>ThreewoodBatch</name>
+      <version>0.1.0</version>
+      <iconUrl />
+      <license url="http://opensource.org/licenses/MIT">MIT License</license>
+      <url>https://github.com/samsam321/umbraco-ThreewoodBatch</url>
+      <requirements type="strict">
+        <major>7</major>
+        <minor>7</minor>
+        <patch>2</patch>
+      </requirements>
+    </package>
+    <author>
+      <name>SamAY</name>
+      <website>https://www.linkedin.com/in/threewood/</website>
+    </author>
+    <readme><![CDATA[
+	
+		 
+                             
+	]]>
+	</readme>
+  </info>
+  <DocumentTypes />
+  <Templates />
+  <Stylesheets />
+  <Macros />
+  <DictionaryItems />
+  <Languages />
+  <DataTypes />
+  <Actions>
+    <Action runat="install" alias="addDashboardSection" dashboardAlias="ThreewoodBatchDashboardSection">
+      <section>
+        <areas>
+          <area>ThreewoodBatch</area>
+        </areas>
+        <tab caption="Dashboard">
+          <control showOnce="false" addPanel="false" panelCaption="">/app_plugins/ThreewoodBatch/views/dashboard.html</control>
+        </tab>
+      </section>
+    </Action>
+  </Actions>
+</umbPackage>

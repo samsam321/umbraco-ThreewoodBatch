@@ -1,0 +1,62 @@
+﻿<form ng-controller="Threewood.Batch.News.ViewController" ng-submit="save()" val-form-manager>
+    
+
+    <umb-panel>
+        <umb-load-indicator ng-hide="!showLoader"></umb-load-indicator>
+        <umb-header tabs="content.tabs">
+            <div class="umb-headline-editor-wrapper span12 ng-scope">
+                <h1 class="ng-binding">News Manager</h1>
+            </div>
+        </umb-header>
+        <umb-tab-view>
+            
+            <umb-tab id="tab1" rel="">
+                <div class="umb-pane " style="">
+                    <div class="control-group umb-control-group" style="">                                               
+                        <div class="umb-el-wrap  hidelabel">
+                            <div class="controls controls-row">
+                                <br><p>
+                                    Type in News (News Name Alias) <br />to be import the contact ( excel file )
+                                </p><br>
+                            </div>
+                        </div>
+                        <!--<div class="umb-el-wrap ">
+                            <label class="control-label" for="departmentNameAlias">Department Name Alias</label>
+                            <div class="controls controls-row">
+                                <input no-dirty-check name="departmentNameAlias" id="departmentNameAlias" class="umbEditorTextField" type="text" ng-model="configuration.departmentNameAlias">
+                            </div>
+                        </div>-->
+                        <div class="umb-el-wrap ">
+                            <label class="control-label" for="phonebookNameAlias">News Name Alias</label>
+                            <div class="controls controls-row">
+                                <input no-dirty-check name="phonebookNameAlias" id="phonebookNameAlias" class="umbEditorTextField" type="text" ng-model="configuration.phonebookNameAlias">
+                            </div>
+                        </div>                        
+                    </div>
+                </div>
+            </umb-tab>
+
+            <umb-tab id="tab2" rel="">
+                <div class="umb-pane">
+                    <umb-control-group label="File" description="File to upload">
+                        <div class="btn-group">
+                            <label for="file-upload" class="custom-file-upload">
+                                <i class="fa fa-cloud-upload"></i> Custom Upload
+                            </label>
+                            <input id="file-upload" type="file" ngf-select="" ng-model="files" ng-multiple="false" ngf-change="fileSelected(files)" required />
+                        </div>
+                        <span ng-show="filenamelabel">{{configuration.filename2beupload}}</span>
+                    </umb-control-group>
+
+                    <div class="umb-tab-buttons" detect-fold>
+                        <div class="btn-group">
+                            <button type="button" data-hotkey="ctrl+s" class="btn btn-success" ng-click="uploadFile()">Upload & Import</button>
+                        </div>
+                    </div>
+                </div>
+            </umb-tab>
+
+        </umb-tab-view>
+    </umb-panel>
+
+</form>

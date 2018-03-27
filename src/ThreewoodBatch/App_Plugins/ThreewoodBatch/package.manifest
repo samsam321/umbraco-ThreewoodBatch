@@ -1,0 +1,13 @@
+﻿{  
+  "javascript": [
+    "~/App_Plugins/ThreewoodBatch/backoffice/batchhelper/controllers/edit.controller.js",
+    "~/App_Plugins/ThreewoodBatch/backoffice/batchhelper/controllers/phonebook-manager-controller.js",
+    "~/App_Plugins/ThreewoodBatch/backoffice/batchhelper/services/file.upload.api.service.js",   
+    "~/App_Plugins/ThreewoodBatch/backoffice/batchhelper/scripts/ng-file-upload-all.js",
+    "~/App_Plugins/ThreewoodBatch/backoffice/batchhelper/directives/nodirtycheck.directive.js"    
+  ],
+  "css": [
+    "~/App_Plugins/ThreewoodBatch/css/dashboard.css",
+    "~/App_Plugins/ThreewoodBatch/css/style.css"
+  ]
+}

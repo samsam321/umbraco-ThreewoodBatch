@@ -1,0 +1,42 @@
+﻿<div class="memberRole-dialog" ng-controller="Threewood.Batch.MemberRole.ViewController">
+    <form name="memberRoleForm" ng-submit="submit(roles)">
+        <umb-panel>
+            <div class="umb-panel-body no-header umb-scrollable with-footer">
+                <umb-pane>                    
+                    <div class="control-group umb-control-group">
+                        <div class="umb-el-wrap">
+                            <label class="control-label header">
+                                <localize key="ThreewoodBatch_Dashboard.MemberRole.Dialog.Header">Assign Target Roles</localize>
+                            </label>
+                            <div class="">
+                                <div class="">
+                                    <label>
+                                        <input type="checkbox" ng-model="isAllSelected.value" ng-click="toggleAll()">
+                                        <localize key="ThreewoodBatch_Dashboard.MemberRole.Dialog.Check">Check/Uncheck all</localize>                                     
+                                    </label>
+                                </div>
+                                <hr class="horizontalline" />
+                                <style parse-style>.container_inline_css_class {width: {{checkboxwidth}};}</style>
+                                <div class="container container_inline_css_class">
+                                    <div class="" ng-repeat="role in roles">
+                                        <label><input type="checkbox" ng-model="role.selected" ng-change="optionToggled()" > {{role.value}} </label>
+                                    </div>
+                                </div>
+                            </div>                            
+                        </div>
+                    </div>                    
+                </umb-pane>
+            </div>
+            <div class="umb-panel-footer">
+                <div class="btn-toolbar umb-btn-toolbar pull-right">
+                    <a class="btn btn-link" ng-click="close()">
+                        <localize key="cancel" />
+                    </a>
+                    <button type="submit" class="btn btn-primary">
+                        <localize key="buttons_save">Save</localize>
+                    </button>
+                </div>
+            </div>
+        </umb-panel>
+    </form>
+</div>
